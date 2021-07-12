@@ -1,0 +1,121 @@
+body{
+	background-color: #FEFCFF;
+}
+
+/* Haut de page */
+header h1{
+	font-size: 55px;
+	text-align: center;
+}
+header h4{
+	font-size: 25px;
+	text-align: center;
+}
+
+/* Boutons nav */
+nav.menu-nav{
+	text-align: center;
+	margin-top: 50px;
+	padding-right: 50px;
+}
+nav.menu-nav ul li.btn{
+	list-style-type: none;
+	display: inline-block;
+}
+nav.menu-nav ul li.btn a{
+	font-size: 30px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #C490DF;
+	padding: 15px;
+	border-radius: 7px;
+}
+nav.menu-nav ul li.btn:hover a{
+	color: #fff;
+	background-color: #623983;
+	transition: 0.5s all;
+}
+
+/* Contenue de la page */
+div#content{
+	background-color: #FEFCFF;
+}
+div#content div.annonce{
+	background-color: #FEFCFF;
+	width: 100%;
+}
+div#content div{
+	display: inline-block;
+	width: 49.78%;
+}
+div#content div.right h2{
+	padding-top: 400px;
+}
+div#content div h2, p.paroles, iframe{
+	margin: 12.5px;
+	font-size: 33px;
+}
+div#content div.right{
+	background-color: #FEFCFF;
+	vertical-align: top;
+	text-align: center;
+}
+div#content p.paroles{	
+	font-weight: bold;
+	text-shadow: 1px 1px 3px purple;
+}
+div#content p.paroles2{
+	font-size: 14.7px;
+	text-align: center;
+	font-weight: bold;
+}
+div#content div.left{
+	background-color: #FEFCFF;
+	text-align: center;
+}
+div#content div.left h2{
+	padding-top: 300px;
+	font-size: 45px;
+	text-shadow: 2px 2px 6px purple;
+}
+div#content div.right h2{
+	padding-top: 400px;
+	font-size: 45px;
+	text-shadow: 2px 2px 6px purple;
+}
+div#content div iframe{
+	text-align: center;
+	box-shadow: 5px 5px 25px #000;
+}
+div.annonce img{
+	border-radius: 50%;
+}
+
+/* Bas de page */
+footer{
+	background-color: #C798E0;
+	text-align: center;
+	border-radius: 9px;
+	font-weight: bold;
+	opacity: 0.75;
+}
+footer p{
+	font-size: 20px;
+}
+
+/*body{
+	background: url("https://gamewave.fr/static/images/news/thumbs/98b76-fivem.jpg") no-repeat;
+	background-size: cover;
+}
+h1.headline{
+	font-size: 55px;
+	padding-left: 35px;
+}
+p.wlc{
+	color: #995BBC;
+	background-color: beige;
+}
+p.css{
+	color: #000;
+	font-weight: bold;
+}
